@@ -32,7 +32,7 @@ class PokemonControllerTest {
                 number = 1,
                 name = "Bulbasaur",
                 description = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
-                imageUrl = "http://192.168.15.2:8000/001.png",
+                imageUrl = "http://baseurl/001.png",
                 types = listOf("grass", "poison"),
                 evolutions = listOf(1, 2, 3)
             ),
@@ -40,7 +40,7 @@ class PokemonControllerTest {
                 number = 2,
                 name = "Ivysaur",
                 description = "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
-                imageUrl = "http://192.168.15.2:8000/002.png",
+                imageUrl = "http://baseurl/002.png",
                 types = listOf("grass", "poison"),
                 evolutions = listOf(1, 2, 3)
             )
@@ -62,7 +62,7 @@ class PokemonControllerTest {
             number = 1,
             name = "Bulbasaur",
             description = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
-            imageUrl = "http://192.168.15.2:8000/001.png",
+            imageUrl = "http://baseurl/001.png",
             types = listOf("grass", "poison"),
             evolutions = listOf(1, 2, 3)
         )
@@ -82,7 +82,7 @@ class PokemonControllerTest {
             number = 1,
             name = "Bulbasaur",
             description = "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
-            imageUrl = "http://192.168.15.2:8000/001.png",
+            imageUrl = "http://baseurl/001.png",
             types = listOf("grass", "poison"),
             evolutions = listOf(1, 2, 3)
         )
